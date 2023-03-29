@@ -1,0 +1,32 @@
+.container{
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.btn{
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #007e80;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: #004853;
+    cursor: pointer;
+}
+
+.input{
+    padding: 1rem;
+    width: 80%;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 16px;
+    border-radius: 0.5rem;
+    border: 1px solid #808080;
+}
